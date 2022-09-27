@@ -7,7 +7,7 @@ import { NotificationsNav } from './NotificationNav'
 import { Profile } from './Profile'
 import { SearchBox } from './SearchBox'
 
-const Header = () => {
+export const Header = () => {
   const { onOpen } = useSidebarDrawer()
   const isWideVersion = useBreakpointValue({
     base: false,
@@ -50,4 +50,3 @@ const Header = () => {
   )
 }
 
-export default Header
